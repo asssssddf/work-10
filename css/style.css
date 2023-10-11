@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.button{
+    margin-left: 770px;
+}
+.IconBoxes{
+    border: 2px solid #008374;
+    padding:30px;
+    text-align: center;
+    background-color: #008374;
+    border-radius: 10px;
+}
+.Icon{
+    font-size: 40px;
+    color: white;
+}
+.IconText{
+    font-size: 30px;
+    color: white;
+}
+@media (max-width:975px){
+    .IconBoxes{
+        margin-top: 20px;
+    }
+}
+.aboutIcon{
+    width: 5%;
+    float: left;
+    font-size: 20px;
+    background-color: #008374;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+.aboutIconText{
+    width: 95%;
+    float: left;
+}
+.ctaButton .btn{
+    padding: 10px 50px 10px 50px;
+    border-radius: 30px;
+    color: white;
+    border: 2px solid #008374;
+}
+.serviceIcon{
+    font-size: 50px;
+}
+.boxes{
+    border: 5px solid #fff;
+    background-color: #fff;
+    padding: 30px 30px 20px 30px;
+    border-radius: 20px;
+
+}
+.boxes :hover{
+    transition: 0.3s ease-in-out; 
+    color: #008374;
+}
+.imageArea{
+    width: 20%;
+    float: left;
+}
+.textArea{
+    width: 80%;
+    float: left;
+    padding-left: 20px;
+}
+.testomonialboxes{
+    border: 5px solid rgb(201, 192, 192);
+    background-color: #dbd0d0;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+}
+.socialButton{
+    border: 2px solid black; 
+    border-radius: 50px;
+}
+.socialButton :hover{
+    color: #008374;
+    transition: 0.3s ease-in-out;
+}
+.pricingNumber i{
+    color: #059652;
+}
+.pricingNumber ul i{
+    padding: 3px;
+}
+.pricingButton .btn{
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    color: rgba(255, 0, 0, 0.774);
+    border: 2px solid #e7c5c5;
+}
+.priceBox2{ 
+     padding-top: 100px;
+     padding-bottom: 100px;
+    border: 5px solid #008374;
+}
+.portfolioNumber ul :hover{
+    color: #008374;
+    transition: 0.3s ease-in-out;
+}
+.addressIcon{
+    width: 10%;
+    float: left;
+}
+.adddressText{
+    width: 90%;
+    float: left;
+}
+.addressIcon i{
+    font-size: 30px;
+    background-color: #d3e2e0;
+    padding: 5px 5px 5px 5px;
+    border-radius: 30px;
+}
